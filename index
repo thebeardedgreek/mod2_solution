@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment</title>
+  </head>
+<style>
+*{
+box-sizing: border-box;
+
+}
+
+.main{
+font-family: Arial;
+font-size: 250%;
+text-align: center;
+
+}
+
+.box{
+@media min width: 64px 
+width: 33.33%;
+float: left;
+border: 3px solid;
+border-color: rgba(200, 160, 255, 0.5);
+background-color: rgba(255, 255, 255, 0.08);
+    
+}
+
+p{
+font-family: sans-serif;
+padding: 5px;
+}
+
+
+</style>
+
+  <body>
+
+    <h1 class="main">Our Menu</h1>
+    <div class="outer">
+      <span class="box">
+        <p class="heading">Chicken</p>
+        <p class="col-lg-1">This is the text that is here for the chicken part of the website.</p>
+      </span>
+      <span class="box">
+        <p class="heading">Beef</p>
+        <p class="col-lg-2">This is the text that is here for the beef part of the website.</p>
+      </span>
+      <span class="box">
+        <p class="heading">Sushi</p>
+        <p class="col-lg-3">This is the text that is here for the sushi part of the website.</p>
+      </span> 
+    </div>
+  
+  </body>
+
+</html>
